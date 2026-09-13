@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>book-bee</title>
+</head>
+<body>
+    <div id="page1" class="container">
+        <div class="logo">
+            <h1>Book<span>-Bee</span></h1>
+        </div>
+        <p>Welcome to Book-Bee, your go-to platform for book enthusiasts!</p>
+
+        <button id="getStartedBtn" class="cta-button">Get Started</button>
+    </div>
+
+    <div id="page2" class="view hidden">
+        <div class="creator-panel">
+            <h3>Publish your book</h3>
+            <input type="text" id="new-book-Title" placeholder="Book Title">
+            <textarea id="new-book-content" placeholder="Book Content"></textarea>
+            <button id="publishBtn" class="cta-button" type="button">Publish</button>
+        </div>
+
+        <div id="book-list" class="book-list"></div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
